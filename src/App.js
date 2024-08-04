@@ -6,7 +6,7 @@ import MovieCard from "./MovieCard";
 
 
 const BASE_KEY = process.env.REACT_APP_OMDB_API_KEY;
-const API_URL = `http://www.omdbapi.com/?i=tt3896198&apikey=${BASE_KEY}`;
+const API_URL = `https://www.omdbapi.com/?i=tt3896198&apikey=${BASE_KEY}`;
 
 
 const App= ()=>{
